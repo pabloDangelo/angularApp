@@ -1,0 +1,21 @@
+form, .row {
+  width: 100%;
+}
+
+.section-title {
+  background-color: rgb(242, 242, 242);
+  padding: 5px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.section-title, .row label, .row :first-child, thead>tr>th {
+  font-weight: bold;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+

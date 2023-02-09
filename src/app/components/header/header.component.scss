@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-top: 5px solid #e4a11b;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+}
+
+/* Estilos default para Mobile */
+/* de 0 a 767px */
+.separador {
+  width: 1px;
+  height: 30px;
+  border-right: 1px solid rgb(48, 48, 48);
+  margin: 0 2rem;
+  display: none;
+}
+
+/* Estilos para dispositivos mas grandes - Media Queries */
+/* Tablets */
+/* de 768px a 1023px */
+@media (min-width: 768px){
+  .separador {
+    display: block;
+  }
+}
+
+/* Desktop */
+/* de 1024px en adelante */
+@media (min-width: 1024px){
+
+}

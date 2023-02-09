@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+
+// MDB SCSS
+@import "mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Estilos default para Mobile */
+/* de 0 a 767px */
+p,label, input {
+  font-size: 14px;
+}
+
+/* Estilos para dispositivos mas grandes - Media Queries */
+/* Tablets */
+/* de 768px a 1023px */
+@media (min-width: 768px){
+  p,label, input {
+    font-size: 16px;
+  }
+}
+
+/* Desktop */
+/* de 1024px en adelante */
+@media (min-width: 1024px){
+  p,label, input {
+    font-size: 18px;
+  }
+}
